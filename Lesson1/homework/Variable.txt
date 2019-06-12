@@ -1,0 +1,10 @@
+- To check a variable's type: type()
+- SYTAX RULES for variable's name:
+    + Only begin with an underscore or a letter
+    + Can contain only letters, numbers, and underscores
+    + Can not use Python keywords
+=> You will get SYNTAX ERROR from the compiler for having invalid names when you're not obeying the rules above
+- Examples of invalid names:
+    1DuNG-bot
+    Vari%able
+    Import
