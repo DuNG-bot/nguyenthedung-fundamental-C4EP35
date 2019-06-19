@@ -1,0 +1,19 @@
+1. A Boolean value is either true or false. It is the basis of all modern computer logic.
+Examples: 3**(0.5) < 2
+          "Hello" != "Hi"
+          "Mind" + "X" == "MindX"
+3. Nested conditionals is when the statement of one branch of condition contains another condition (if statement)
+
+Example:
+Y = int(input('Enter your birth year: '))
+age = 2019 - Y
+
+if age < 13:
+    print('Baby')
+else:
+    if age < 18:
+        print('Teen')
+    else:
+        print('Adult')
+
+
