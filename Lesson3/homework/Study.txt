@@ -1,0 +1,4 @@
+- A nested list is a list that appear as an element in another list. For example:
+ls = [1,2,97,[6,5,4]]
+
+- Yes. The elements in a list don't have to be the same type. A list can contains not only strings and integer elements but also float type.
