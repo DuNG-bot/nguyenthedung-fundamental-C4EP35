@@ -1,0 +1,10 @@
+- We use function to organize program into chunks that are easier to understand
+- To declare a function, we need to have:
+   + a header line which begins with a keyword 'def' and ends with a colon
+   + a body consisting of one or more Python statements, indented the same amount from the header line
+- To call a function, we use the NAME of that function along with parenthesis, include parameters if stated
+- Return function save the results after executed by the function. Return also is a way to exit the function without having to execute the rest of the code
+- We only need to use return when inside a fruitful function (function with values)
+- Arguments are the list of values through which the function will execute. These arguments are assigned to the parameters in the function definition
+- To use function from a different file, we use:
+from FILE NAME import FUNCTION 
