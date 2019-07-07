@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello everyone!</h1>
+    <img src="http://vanlangcentre.com.vn/image/cache/data/hoa-sy-duong-dai/Nguyen-the-dung/003-500x500.jpg" alt="">
+    <p>My name is {{Me.Full_name}}</p>
+    <p>I'm currently a {{Me.Employment}}</p>
+    <p>School: {{Me.School}}</p> <a href="http://techkids.vn"> Visit my school </a>
+    {% for v in Me.Hobbies %}
+    <p>In my free time, I enjoy {{v}} </p>
+    {% endfor %}
+    <p>My dog is {{Me.Dog_name}}</p>
+    <p>Crush status: {{Me.Crush}}</p>
+    <a href="https://www.facebook.com/dung.nguyenthe.1420">Facebook</a>
+</body>
+</html>

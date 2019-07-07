@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% if d < 16 %}
+        <p>You are severly underweight!!!!</p>
+    {% elif d < 18.5 %}
+        <p>You are underweight</p>
+    {% elif d < 25 %}
+        <p>You are normal</p>
+    {% elif d < 30 %}
+        <p>You are overweight!!!</p>
+    {% else %}
+        <p>Obesity :((</p>
+    {% endif %}
+</body>
+</html>
